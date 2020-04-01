@@ -1,0 +1,343 @@
+body{
+  background:#e6ebe9;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+
+
+div.tooltip {
+    position:absolute;
+    width: auto;
+    height: auto;
+    max-width: 250px;
+    margin-top: -1.25em;
+    padding: 0.75em 1em;
+    font-family: 'Oswald', sans-serif;
+    /*white-space: nowrap;*/
+    font-size: 20px;
+    font-size: 1.33rem;
+    font-weight: 300;
+    line-height: 1.2;
+    color: #04629a;
+
+    background: #FFFFFF;
+      -webkit-border-radius: 2px;
+      -moz-border-radius: 2px;
+      border-radius: 2px;
+      -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+      -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+      box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+      pointer-events: none;
+    transform: translate(-50%,-75%);
+}
+
+div.tooltip::after {
+  content: " ";
+  position: absolute;
+  top: 100%;  /* At the top of the tooltip */
+  left: 50%;
+  margin-left: -10px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: #fff transparent transparent transparent;
+}
+
+#world {
+  /**stroke: #deeaf1;**/
+  stroke-width: 0px;
+ fill: #c0c7c9;
+ stroke:#c0c7c9;
+  opacity: 1;
+}
+
+
+
+#state-borders {
+  fill: none;
+  stroke: #fff;
+  stroke-width: 0.5px;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  pointer-events: none;
+}
+
+.background {
+  fill: #deeaf1;
+  pointer-events: all;
+}
+
+#modedemploi{
+      position:absolute;
+      top:5%;
+      left: 0; 
+      right: 0; 
+      margin-left: auto; 
+      margin-right: auto;
+      max-width:500px;
+      
+      padding:1rem;
+      background: #FFFFFF;
+      -webkit-border-radius: 2px;
+      -moz-border-radius: 2px;
+      border-radius: 2px;
+      -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+      -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+      box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+      /*pointer-events: none;*/  
+
+      margin-left: 1.2em;
+      font-family: 'Oswald', sans-serif;
+      font-size: 2rem;
+      font-weight: 700;
+      color: #04629a;
+}
+
+#countryCard{
+      position:absolute;
+      top:20%;
+      left: 0; 
+     right: 0; 
+      margin-left: auto; 
+      margin-right: auto;
+      width:95%;
+      max-width: 1140px;
+      max-height:500px;
+      overflow: scroll;
+      /*padding:2rem;*/
+      background: #FFFFFF;
+      -webkit-border-radius: 2px;
+      -moz-border-radius: 2px;
+      border-radius: 2px;
+      -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+      -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+      box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+      /*pointer-events: none;*/
+      display:none;    
+}
+
+#shutterholder{
+  padding:2rem;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  width:100%;
+  border-bottom: 0.5px  solid #04629a;
+  z-index:3;
+
+}
+#shutter{
+  float:right;  
+  width:20px;
+  margin-bottom: 10px;
+}
+
+   
+#countrySel{
+    padding-top: 10px;
+    margin-left: 1.2em;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #04629a;
+}
+
+#betaTag{
+
+    margin-left: 2.0em;
+    margin-bottom:10px;
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1;
+    color: #04629a;
+}
+#updateTime{
+    margin-left: 2.0em;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 100;
+    font-style: italic;
+    line-height: 1;
+    color: #04629a;
+}
+
+#containment_Text,#supportText,#supportViz {
+
+  padding:2rem;
+    margin-top: 10px;
+    margin-left: 2em;
+}
+
+.SectionTitle{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    color: #0b1e2d;
+    position: relative;
+    bottom: -1rem;
+    background: #fff;
+    padding-right: 10px;
+    z-index:2;
+
+}
+.border{
+
+    border-bottom: 0.5px solid #0b1e2d;
+}
+.sectionText{
+    margin-top:0.75em;
+    margin-left: 2em;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+    color: #0b1e2d;
+}
+
+.domain{
+  stroke:none;
+}
+.tick{
+  stroke:#aaaaaa;
+  stroke-width: 0.25px;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 100;
+  font-size: 1rem;
+  color: #0b1e2d;
+  }
+
+
+
+
+.line{
+  fill:none;
+  stroke-width: 0.5px;
+  stroke:#01B4CB;
+}
+
+.explainerLine{
+  stroke-dasharray:2,2;
+  stroke-width: 0.5px;
+  stroke:#979797;
+}
+
+.tick .line{
+  stroke:#aaaaaa;
+  stroke-width: 0.25px;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 100;
+  font-size: 1rem;
+  color: #0b1e2d;
+  }
+
+textpath{
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 100;
+  font-size: 1rem;
+  color: #0b1e2d;
+  opacity: 0.5;
+}
+
+.text{
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #0b1e2d;
+}
+
+
+
+.voronoi path {
+  fill: none;
+  pointer-events: all;
+}
+
+
+
+
+
+
+
+
+
+
+
+/**
+#small-multiples > div {
+    display: inline-block;
+    height: 185px;
+    width: 50%
+  }  
+  @media (min-width: 600px) {
+    #small-multiples > div {
+      width: 33%
+    }
+  }
+  @media (min-width: 800px) {
+    #small-multiples > div {
+      width: 25%
+    }
+  }
+  @media (min-width: 1000px) {
+    #small-multiples > div {
+      width: 20%
+    }
+  }
+  .tooltip .x-axis .tick {
+    display: none;
+  }
+  .x-axis .domain, .x-axis .tick path,
+  .y-axis .domain, .y-axis .tick path {
+    display: none;
+  }
+  .plot-area {
+    overflow: visible !important;
+  }
+  .x-axis {
+    height: 1.5em !important;
+  }
+  .gridline-x {
+    stroke: white;
+  }
+  .point {
+    fill: black;
+  }
+  .point text {
+    text-anchor: middle;
+    transform: translateY(-10px);
+    font-size: 10px;
+    stroke: none;
+  }
+  .bottom-handle {
+    text-anchor: middle;
+    alignment-baseline: hanging;
+   	font-size: 10px;
+    transform: translateY(1.5em);
+  }
+  .top-handle {
+    display: none;
+  }
+  .annotation-line line {
+    display: none;
+  }**/
+
+  .areaCou{
+    fill:#8DCD79;
+  }
+
+  .countryName{
+    font-family: 'Noto Sans', sans-serif;
+  font-weight: 100;
+  font-size: 1rem;
+  color: #0b1e2d;
+  }
+
+  .axisLabel{
+    font-family: 'Noto Sans', sans-serif;
+  font-weight: 100;
+  font-size: 1rem;
+  color: #0b1e2d;
+  }
