@@ -460,6 +460,12 @@
 			});;	
 
 
+		timeChart.append("text")
+			.attr("x", xScale(d3.max(temp, d => parseFloat(d.increment))))
+			.attr("y", height)
+			.attr("class", "axisLabel")
+			.text("Number of days since 10 deaths")
+			.style("text-anchor", "end");
 
 		timeChart.append("path")
 			.datum(temp.filter(function (d) { return (d.Country == "China")  }))
@@ -524,12 +530,6 @@
 			.text("Deaths double every week");;
 		
 
-		timeChart.append("text")
-			.attr("x", xScale(d3.max(temp, d => parseFloat(d.increment))))
-			.attr("y", height)
-			.attr("class", "axisLabel")
-			.text("Number of days since 10 deaths")
-			.style("text-anchor", "end");
 	}
 
 	function drawCurves(temp) {
