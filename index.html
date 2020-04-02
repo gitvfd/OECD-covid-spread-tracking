@@ -82,7 +82,8 @@
 
 	var yScaleFlatten;
 	var radiusScale;
-	var colorScale = d3.scaleLinear().range(["#01B4CB","#8DCD79"])//d3.scaleSequential(d3.interpolateViridis)
+	var colorScale = /*d3.scaleSequential(d3.interpolateCividis) */d3.scaleLinear().range(["#01B4CB","#8DCD79"])
+
 
 	var countryDateDeath_;
 	var countryDateConfirmed_;
@@ -262,10 +263,13 @@
 					.duration(250)
 					.style("opacity", 1);
 
+				
+(console.log(document.getElementById('spreadMap').getBoundingClientRect().top ))
 				var htmlText = "<b>" + d.data.Country + "</b>"
 				divMap.html(htmlText)
-					.style("left", element.attr('cx') + "px")
-					.style("top", element.attr('cy') + "px");
+					.style("left",parseFloat(document.getElementById('spreadMap').getBoundingClientRect().top) + parseFloat(element.attr('cx')) + "px")
+					.style("top",  parseFloat(document.getElementById('spreadMap').getBoundingClientRect().left) + parseFloat(element.attr('cy')) + "px");
+					
 			})
 			.on('mouseout', function (d) {
 				var element = d3.select("#" + d.data.Country.split(' ').join('').replace("*", "").replace("\''", "").replace("-", "").replace("(", "").replace(")", "") + "circle")
@@ -279,7 +283,6 @@
 			.on('click', function (d) {
 
 				d3.selectAll(".line").style("stroke","#01B4CB").style("stroke-width", "0.5px")
-
 
 				var timeLine= "#"+d.data.Country.split(' ').join('').replace("*", "").replace("\''", "").replace("-", "").replace("(", "").replace(")", "") +"timeLine";
 				d3.select(timeLine).style("stroke-width", "3px").style("stroke", "#0000BA")
@@ -349,8 +352,7 @@
 			.append("g")
 			.attr("class", "y axis")
 			.call(yAxis.tickSize(5))//-width + marginChart.left + marginChart.right).ticks(5))
-			
-				
+
 
 		var cou = timeChart
 			.selectAll(".country")
@@ -466,6 +468,13 @@
 			.attr("class", "axisLabel")
 			.text("Number of days since 10 deaths")
 			.style("text-anchor", "end");
+		
+		timeChart.append("text")
+			.attr("x", xScale(d3.min(temp, d => parseFloat(d.increment))))
+			.attr("y", margin.top/2)
+			.attr("class", "axisLabel")
+			.text("Total number of deaths")
+			.style("text-anchor", "start");	
 
 		timeChart.append("path")
 			.datum(temp.filter(function (d) { return (d.Country == "China")  }))
@@ -681,7 +690,15 @@
 				d3.select(spreadCircle).style("stroke", "#0000BA").style("stroke-width", "3px")
 			});	
 
-		var axisFlatten = flattenCurve.append("text")
+		flattenCurve.append("text")
+			.attr("x", xScale(d3.min(temp, d => parseFloat(d.increment))))
+			.attr("y", margin.top / 2)
+			.attr("class", "axisLabel")
+			.text("Daily number of deaths")
+			.style("text-anchor", "start");	
+
+
+		flattenCurve.append("text")
 			.attr("x", xScale(d3.max(temp, d => parseFloat(d.increment))))
 			.attr("y", height )
 			.attr("class","axisLabel")

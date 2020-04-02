@@ -1,204 +1,204 @@
 Country	type	value	lat	long
-United States	confirmed	188172	37.0902	-95.7129
-Italy	confirmed	105792	43	12
-Spain	confirmed	95923	40	-4
-China	confirmed	82279	32.8283848484848	111.649081818182
-Germany	confirmed	71808	51	9
-France	confirmed	52128	46.2276	2.2137
-Iran	confirmed	44605	32	53
-United Kingdom	confirmed	25150	55.3781	-3.436
-Switzerland	confirmed	16605	46.8182	8.2275
-Turkey	confirmed	13531	38.9637	35.2433
-Belgium	confirmed	12775	50.8333	4
-Netherlands	confirmed	12595	52.1326	5.2913
-Austria	confirmed	10180	47.5162	14.5501
-Korea	confirmed	9786	36	128
-Canada	confirmed	8527	44.7840466666667	-82.5085933333333
-Portugal	confirmed	7443	39.3999	-8.2245
-Brazil	confirmed	5717	-14.235	-51.9253
-Israel	confirmed	5358	31	35
-Norway	confirmed	4641	60.472	8.4689
-Australia	confirmed	4559	-31.9961875	141.2327875
-Sweden	confirmed	4435	63	16
-Czech Republic	confirmed	3308	49.8175	15.473
-Ireland	confirmed	3235	53.1424	-7.6921
-Denmark	confirmed	2860	56.2639	9.5018
-Malaysia	confirmed	2766	2.5	112.5
-Chile	confirmed	2738	-35.6751	-71.543
-Russia	confirmed	2337	60	90
-Poland	confirmed	2311	51.9194	19.1451
-Romania	confirmed	2245	45.9432	24.9668
-Ecuador	confirmed	2240	-1.8312	-78.1834
-Luxembourg	confirmed	2178	49.8153	6.1296
-Philippines	confirmed	2084	13	122
-Japan	confirmed	1953	36	138
-Pakistan	confirmed	1938	30.3753	69.3451
-Thailand	confirmed	1651	15	101
-Saudi Arabia	confirmed	1563	24	45
-Indonesia	confirmed	1528	-0.7893	113.9213
-Finland	confirmed	1418	64	26
-India	confirmed	1397	21	78
-South Africa	confirmed	1353	-30.5595	22.9375
-Greece	confirmed	1314	39.0742	21.8243
+United States	confirmed	213372	37.0902	-95.7129
+Italy	confirmed	110574	43	12
+Spain	confirmed	104118	40	-4
+China	confirmed	82361	32.8283848484848	111.649081818182
+Germany	confirmed	77872	51	9
+France	confirmed	56989	46.2276	2.2137
+Iran	confirmed	47593	32	53
+United Kingdom	confirmed	29474	55.3781	-3.436
+Switzerland	confirmed	17768	46.8182	8.2275
+Turkey	confirmed	15679	38.9637	35.2433
+Belgium	confirmed	13964	50.8333	4
+Netherlands	confirmed	13614	52.1326	5.2913
+Austria	confirmed	10711	47.5162	14.5501
+Korea	confirmed	9887	36	128
+Canada	confirmed	9560	44.7840466666667	-82.5085933333333
+Portugal	confirmed	8251	39.3999	-8.2245
+Brazil	confirmed	6836	-14.235	-51.9253
+Israel	confirmed	6092	31	35
+Sweden	confirmed	4947	63	16
+Norway	confirmed	4863	60.472	8.4689
+Australia	confirmed	4862	-31.9961875	141.2327875
+Czech Republic	confirmed	3508	49.8175	15.473
+Ireland	confirmed	3447	53.1424	-7.6921
+Denmark	confirmed	3107	56.2639	9.5018
+Chile	confirmed	3031	-35.6751	-71.543
+Malaysia	confirmed	2908	2.5	112.5
+Russia	confirmed	2777	60	90
+Ecuador	confirmed	2748	-1.8312	-78.1834
+Poland	confirmed	2554	51.9194	19.1451
+Romania	confirmed	2460	45.9432	24.9668
+Luxembourg	confirmed	2319	49.8153	6.1296
+Philippines	confirmed	2311	13	122
+Japan	confirmed	2178	36	138
+Pakistan	confirmed	2118	30.3753	69.3451
+India	confirmed	1998	21	78
+Thailand	confirmed	1771	15	101
+Saudi Arabia	confirmed	1720	24	45
+Indonesia	confirmed	1677	-0.7893	113.9213
+Finland	confirmed	1446	64	26
+Greece	confirmed	1415	39.0742	21.8243
+South Africa	confirmed	1380	-30.5595	22.9375
+Peru	confirmed	1323	-9.19	-75.0152
+Dominican Republic	confirmed	1284	18.7357	-70.1627
+Iceland	confirmed	1220	64.9631	-19.0208
+Mexico	confirmed	1215	23.6345	-102.5528
 Panama	confirmed	1181	8.538	-80.7821
-Iceland	confirmed	1135	64.9631	-19.0208
-Dominican Republic	confirmed	1109	18.7357	-70.1627
-Mexico	confirmed	1094	23.6345	-102.5528
-Peru	confirmed	1065	-9.19	-75.0152
+Colombia	confirmed	1065	4.5709	-74.2973
+Serbia	confirmed	1060	44.0165	21.0059
 Argentina	confirmed	1054	-38.4161	-63.6167
-Singapore	confirmed	926	1.2833	103.8333
-Colombia	confirmed	906	4.5709	-74.2973
-Serbia	confirmed	900	44.0165	21.0059
-Croatia	confirmed	867	45.1	15.2
-Slovenia	confirmed	802	46.1512	14.9955
-Qatar	confirmed	781	25.3548	51.1839
-Estonia	confirmed	745	58.5953	25.0136
-Algeria	confirmed	716	28.0339	1.6596
+Singapore	confirmed	1000	1.2833	103.8333
+Croatia	confirmed	963	45.1	15.2
+Algeria	confirmed	847	28.0339	1.6596
+Slovenia	confirmed	841	46.1512	14.9955
+Qatar	confirmed	835	25.3548	51.1839
+United Arab Emirates	confirmed	814	24	54
+Ukraine	confirmed	794	48.3794	31.1656
+Egypt	confirmed	779	26	30
+Estonia	confirmed	779	58.5953	25.0136
+Iraq	confirmed	728	33	44
 Diamond Princess	confirmed	712	0	0
-Egypt	confirmed	710	26	30
-Iraq	confirmed	694	33	44
-United Arab Emirates	confirmed	664	24	54
-New Zealand	confirmed	647	-40.9006	174.886
-Ukraine	confirmed	645	48.3794	31.1656
-Morocco	confirmed	617	31.7917	-7.0926
-Bahrain	confirmed	567	26.0275	50.55
-Lithuania	confirmed	537	55.1694	23.8813
-Armenia	confirmed	532	40.0691	45.0382
-Hungary	confirmed	492	47.1625	19.5033
-Lebanon	confirmed	470	33.8547	35.8623
-Bosnia and Herzegovina	confirmed	420	43.9159	17.6791
-Bulgaria	confirmed	399	42.7339	25.4858
-Latvia	confirmed	398	56.8796	24.6032
-Tunisia	confirmed	394	34	9
-Andorra	confirmed	376	42.5063	1.5218
-Slovak Republic	confirmed	363	48.669	19.699
-Moldova	confirmed	353	47.4116	28.3699
-Costa Rica	confirmed	347	9.7489	-83.7534
-Kazakhstan	confirmed	343	48.0196	66.9237
+New Zealand	confirmed	708	-40.9006	174.886
+Morocco	confirmed	654	31.7917	-7.0926
+Lithuania	confirmed	581	55.1694	23.8813
+Armenia	confirmed	571	40.0691	45.0382
+Bahrain	confirmed	569	26.0275	50.55
+Hungary	confirmed	525	47.1625	19.5033
+Lebanon	confirmed	479	33.8547	35.8623
+Bosnia and Herzegovina	confirmed	459	43.9159	17.6791
+Latvia	confirmed	446	56.8796	24.6032
+Moldova	confirmed	423	47.4116	28.3699
+Tunisia	confirmed	423	34	9
+Bulgaria	confirmed	422	42.7339	25.4858
+Slovak Republic	confirmed	400	48.669	19.699
+Andorra	confirmed	390	42.5063	1.5218
+Kazakhstan	confirmed	380	48.0196	66.9237
+Costa Rica	confirmed	375	9.7489	-83.7534
+Azerbaijan	confirmed	359	40.1431	47.5769
+North Macedonia	confirmed	354	41.6086	21.7453
 Uruguay	confirmed	338	-32.5228	-55.7658
-North Macedonia	confirmed	329	41.6086	21.7453
-Chinese Taipei	confirmed	322	23.7	121
-Azerbaijan	confirmed	298	40.1431	47.5769
-Kuwait	confirmed	289	29.5	47.75
-Jordan	confirmed	274	31.24	36.51
-Cyprus	confirmed	262	35.1264	33.4299
-Burkina Faso	confirmed	261	12.2383	-1.5616
-France - Reunion	confirmed	247	-21.1351	55.2471
-Albania	confirmed	243	41.1533	20.1683
+Chinese Taipei	confirmed	329	23.7	121
+Cyprus	confirmed	320	35.1264	33.4299
+Kuwait	confirmed	317	29.5	47.75
+Burkina Faso	confirmed	282	12.2383	-1.5616
+France - Reunion	confirmed	281	-21.1351	55.2471
+Jordan	confirmed	278	31.24	36.51
+Albania	confirmed	259	41.1533	20.1683
+Afghanistan	confirmed	237	33	65
 San Marino	confirmed	236	43.9424	12.4578
-Vietnam	confirmed	212	16	108
-Cameroon	confirmed	193	3.848	11.5021
-Oman	confirmed	192	21	57
-Cuba	confirmed	186	22	-80
-Cote d'Ivoire	confirmed	179	7.54	-5.5471
-Senegal	confirmed	175	14.4974	-14.4524
-Afghanistan	confirmed	174	33	65
-Uzbekistan	confirmed	172	41.3775	64.5853
-Denmark - Faroe Islands	confirmed	169	61.8926	-6.9118
-Malta	confirmed	169	35.9375	14.3754
-Ghana	confirmed	161	7.9465	-1.0232
-Belarus	confirmed	152	53.7098	27.9534
-Mauritius	confirmed	143	-20.2	57.5
-Sri Lanka	confirmed	143	7	81
-Honduras	confirmed	141	15.2	-86.2419
-United Kingdom - Channel Islands	confirmed	141	49.3723	-2.3644
-Nigeria	confirmed	135	9.082	8.6753
-Venezuela	confirmed	135	6.4238	-66.5897
-Brunei	confirmed	129	4.5353	114.7277
-France - Martinique	confirmed	128	14.6415	-61.0242
-West Bank and Gaza	confirmed	119	31.9522	35.2332
-France - Guadeloupe	confirmed	114	16.25	-61.5833
-Kosovo	confirmed	112	42.602636	20.902977
-Georgia	confirmed	110	42.3154	43.3569
+Cameroon	confirmed	233	3.848	11.5021
+Vietnam	confirmed	218	16	108
+Cuba	confirmed	212	22	-80
+Oman	confirmed	210	21	57
+Ghana	confirmed	195	7.9465	-1.0232
+Cote d'Ivoire	confirmed	190	7.54	-5.5471
+Senegal	confirmed	190	14.4974	-14.4524
+Malta	confirmed	188	35.9375	14.3754
+Uzbekistan	confirmed	181	41.3775	64.5853
+Nigeria	confirmed	174	9.082	8.6753
+Denmark - Faroe Islands	confirmed	173	61.8926	-6.9118
+Honduras	confirmed	172	15.2	-86.2419
+United Kingdom - Channel Islands	confirmed	172	49.3723	-2.3644
+Belarus	confirmed	163	53.7098	27.9534
+Mauritius	confirmed	161	-20.2	57.5
+Sri Lanka	confirmed	146	7	81
+Venezuela	confirmed	143	6.4238	-66.5897
+France - Martinique	confirmed	135	14.6415	-61.0242
+West Bank and Gaza	confirmed	134	31.9522	35.2332
+Brunei	confirmed	131	4.5353	114.7277
+France - Guadeloupe	confirmed	125	16.25	-61.5833
+Kosovo	confirmed	125	42.602636	20.902977
+Montenegro	confirmed	123	42.5	19.3
+Georgia	confirmed	117	42.3154	43.3569
+Bolivia	confirmed	115	-16.2902	-63.5887
+Kyrgyzstan	confirmed	111	41.2044	74.7661
 Cambodia	confirmed	109	11.55	104.9167
-Montenegro	confirmed	109	42.5	19.3
-Bolivia	confirmed	107	-16.2902	-63.5887
-Kyrgyzstan	confirmed	107	41.2044	74.7661
-Congo (Kinshasa)	confirmed	98	-4.0383	21.7587
+Congo (Kinshasa)	confirmed	109	-4.0383	21.7587
 France - Mayotte	confirmed	94	-12.8275	45.1662
-Trinidad and Tobago	confirmed	87	10.6918	-61.2225
-Rwanda	confirmed	75	-1.9403	29.8739
-United Kingdom - Gibraltar	confirmed	69	36.1408	-5.3536
+Trinidad and Tobago	confirmed	90	10.6918	-61.2225
+Rwanda	confirmed	82	-1.9403	29.8739
+Kenya	confirmed	81	-0.0236	37.9062
+United Kingdom - Gibraltar	confirmed	81	36.1408	-5.3536
+Niger	confirmed	74	17.6078	8.0817
+Paraguay	confirmed	69	-23.4425	-58.4438
 Liechtenstein	confirmed	68	47.14	9.55
-Paraguay	confirmed	65	-23.4425	-58.4438
-United Kingdom - Isle of Man	confirmed	60	54.2361	-4.5481
-Kenya	confirmed	59	-0.0236	37.9062
+United Kingdom - Isle of Man	confirmed	68	54.2361	-4.5481
 Madagascar	confirmed	57	-18.7669	46.8691
+Monaco	confirmed	55	43.7333	7.4167
 Netherlands - Aruba	confirmed	55	12.5186	-70.0358
-Monaco	confirmed	52	43.7333	7.4167
-Bangladesh	confirmed	51	23.685	90.3563
+Bangladesh	confirmed	54	23.685	90.3563
+France - French Guiana	confirmed	51	3.9339	-53.1258
+Jamaica	confirmed	44	18.1096	-77.2975
 Uganda	confirmed	44	1	32
-France - French Guiana	confirmed	43	3.9339	-53.1258
-Guatemala	confirmed	38	15.7835	-90.2308
-France - French Polynesia	confirmed	36	-17.6797	149.4068
-Jamaica	confirmed	36	18.1096	-77.2975
-Zambia	confirmed	35	-15.4167	28.2833
+Guatemala	confirmed	39	15.7835	-90.2308
+France - French Polynesia	confirmed	37	-17.6797	149.4068
+Togo	confirmed	36	8.6195	0.8248
+Zambia	confirmed	36	-15.4167	28.2833
 Barbados	confirmed	34	13.1939	-59.5432
-Togo	confirmed	34	8.6195	0.8248
+Djibouti	confirmed	33	11.8251	42.5903
 El Salvador	confirmed	32	13.7942	-88.8965
 United Kingdom - Bermuda	confirmed	32	32.3078	-64.7505
-Djibouti	confirmed	30	11.8251	42.5903
-Mali	confirmed	28	17.570692	-3.996166
-Niger	confirmed	27	17.6078	8.0817
-Ethiopia	confirmed	26	9.145	40.4897
-Guinea	confirmed	22	9.9456	-9.6966
+Mali	confirmed	31	17.570692	-3.996166
+Guinea	confirmed	30	9.9456	-9.6966
+Ethiopia	confirmed	29	9.145	40.4897
+United Kingdom - Cayman Islands	confirmed	22	19.3133	-81.2546
+Bahamas	confirmed	21	25.0343	-77.3963
+Tanzania	confirmed	20	-6.369	34.8888
 Congo (Brazzaville)	confirmed	19	-4.0383	21.7587
-Tanzania	confirmed	19	-6.369	34.8888
-Maldives	confirmed	18	3.2028	73.2207
+Guyana	confirmed	19	5	-58.75
+Maldives	confirmed	19	3.2028	73.2207
+Gabon	confirmed	18	-0.8037	11.6094
 France - New Caledonia	confirmed	16	-20.9043	165.618
-Gabon	confirmed	16	-0.8037	11.6094
+Haiti	confirmed	16	18.9712	-72.2852
+Netherlands - Sint Maarten	confirmed	16	18.0425	-63.0548
 Burma	confirmed	15	21.9162	95.956
+Equatorial Guinea	confirmed	15	1.5	10
 Eritrea	confirmed	15	15.1794	39.7823
 France - St Martin	confirmed	15	18.0708	-63.0501
-Haiti	confirmed	15	18.9712	-72.2852
-Bahamas	confirmed	14	25.0343	-77.3963
-United Kingdom - Cayman Islands	confirmed	14	19.3133	-81.2546
+Mongolia	confirmed	14	46.8625	103.8467
+Namibia	confirmed	14	-22.9576	18.4904
+Benin	confirmed	13	9.3077	2.3158
 Saint Lucia	confirmed	13	13.9094	-60.9789
 Dominica	confirmed	12	15.415	-61.371
-Equatorial Guinea	confirmed	12	1.5	10
-Guyana	confirmed	12	5	-58.75
-Mongolia	confirmed	12	46.8625	103.8467
-Namibia	confirmed	11	-22.9576	18.4904
 Netherlands - Curacao	confirmed	11	12.1696	-68.99
 Denmark - Greenland	confirmed	10	71.7069	-42.6043
+Laos	confirmed	10	19.85627	102.495496
 Libya	confirmed	10	26.3351	17.228331
+Mozambique	confirmed	10	-18.665695	35.529562
 Seychelles	confirmed	10	-4.6796	55.492
+Suriname	confirmed	10	3.9193	-56.0278
 Syria	confirmed	10	34.802075	38.996815
-Benin	confirmed	9	9.3077	2.3158
 Eswatini	confirmed	9	-26.5225	31.4659
 Grenada	confirmed	9	12.1165	-61.679
-Laos	confirmed	9	19.85627	102.495496
-Suriname	confirmed	9	3.9193	-56.0278
-Guinea-Bissau	confirmed	8	11.8037	-15.1804
-Mozambique	confirmed	8	-18.665695	35.529562
+Guinea-Bissau	confirmed	9	11.8037	-15.1804
+MS Zaandam	confirmed	9	0	0
+Angola	confirmed	8	-11.2027	17.8739
 Saint Kitts and Nevis	confirmed	8	17.357822	-62.782998
 Zimbabwe	confirmed	8	-20	30
-Angola	confirmed	7	-11.2027	17.8739
 Antigua and Barbuda	confirmed	7	17.0608	-61.7964
 Chad	confirmed	7	15.4542	18.7322
 Sudan	confirmed	7	12.8628	30.2176
 Cabo Verde	confirmed	6	16.5388	-23.0418
 France - Saint Barthelemy	confirmed	6	17.9	-62.8333
 Holy See	confirmed	6	41.9029	12.4534
+Liberia	confirmed	6	6.4281	-9.4295
 Mauritania	confirmed	6	21.0079	10.9408
-Netherlands - Sint Maarten	confirmed	6	18.0425	-63.0548
+United Kingdom - Turks and Caicos Islands	confirmed	6	21.694	-71.7979
 Fiji	confirmed	5	-17.7134	178.065
 Nepal	confirmed	5	28.1667	84.25
 Nicaragua	confirmed	5	12.8654	-85.2072
 Somalia	confirmed	5	5.1521	46.1996
 United Kingdom - Montserrat	confirmed	5	16.7425	-62.1874
-United Kingdom - Turks and Caicos Islands	confirmed	5	21.694	-71.7979
 Bhutan	confirmed	4	27.5142	90.4336
 Botswana	confirmed	4	-22.3285	24.6849
 Gambia	confirmed	4	13.4432	-15.3101
 Belize	confirmed	3	13.1939	-59.5432
 Central African Republic	confirmed	3	6.6111	20.9394
-Liberia	confirmed	3	6.4281	-9.4295
 United Kingdom - British Virgin Islands	confirmed	3	18.4207	-64.64
 Burundi	confirmed	2	-3.3731	29.9189
-MS Zaandam	confirmed	2	0	0
+Sierra Leone	confirmed	2	8.460555	-11.779889
 United Kingdom - Anguilla	confirmed	2	18.2206	-63.0686
 Papua New Guinea	confirmed	1	-6.315	143.9555
 Saint Vincent and the Grenadines	confirmed	1	12.9843	-61.2872
-Sierra Leone	confirmed	1	8.460555	-11.779889
 Timor-Leste	confirmed	1	-8.874217	125.727539
