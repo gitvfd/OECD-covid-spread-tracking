@@ -1,114 +1,117 @@
 Country	type	value	lat	long
-Italy	death	13155	43	12
-Spain	death	9387	40	-4
-United States	death	4757	37.0902	-95.7129
-France	death	4032	46.2276	2.2137
-China	death	3316	32.8283848484848	111.649081818182
-Iran	death	3036	32	53
-United Kingdom	death	2352	55.3781	-3.436
-Netherlands	death	1173	52.1326	5.2913
-Germany	death	920	51	9
-Belgium	death	828	50.8333	4
-Switzerland	death	488	46.8182	8.2275
-Turkey	death	277	38.9637	35.2433
-Brazil	death	240	-14.235	-51.9253
-Sweden	death	239	63	16
-Portugal	death	187	39.3999	-8.2245
-Korea	death	165	36	128
-Indonesia	death	157	-0.7893	113.9213
-Austria	death	146	47.5162	14.5501
-Canada	death	109	44.7840466666667	-82.5085933333333
-Denmark	death	104	56.2639	9.5018
-Philippines	death	96	13	122
-Ecuador	death	93	-1.8312	-78.1834
-Romania	death	92	45.9432	24.9668
-Ireland	death	85	53.1424	-7.6921
-Algeria	death	58	28.0339	1.6596
-India	death	58	21	78
-Dominican Republic	death	57	18.7357	-70.1627
-Japan	death	57	36	138
-Egypt	death	52	26	30
-Iraq	death	52	33	44
-Greece	death	50	39.0742	21.8243
-Malaysia	death	45	2.5	112.5
-Norway	death	44	60.472	8.4689
-Poland	death	43	51.9194	19.1451
-Czech Republic	death	39	49.8175	15.473
-Morocco	death	39	31.7917	-7.0926
-Peru	death	38	-9.19	-75.0152
-Panama	death	30	8.538	-80.7821
-Luxembourg	death	29	49.8153	6.1296
-Mexico	death	29	23.6345	-102.5528
-Argentina	death	28	-38.4161	-63.6167
-Serbia	death	28	44.0165	21.0059
-Pakistan	death	27	30.3753	69.3451
-Israel	death	26	31	35
-San Marino	death	26	43.9424	12.4578
-Russia	death	24	60	90
-Australia	death	20	-31.9961875	141.2327875
-Hungary	death	20	47.1625	19.5033
-Ukraine	death	20	48.3794	31.1656
-Colombia	death	17	4.5709	-74.2973
-Finland	death	17	64	26
+Italy	death	13915	43	12
+Spain	death	10348	40	-4
+United States	death	5926	37.0902	-95.7129
+France	death	5387	46.2276	2.2137
+China	death	3322	32.8283848484848	111.649081818182
+Iran	death	3160	32	53
+United Kingdom	death	2921	55.3781	-3.436
+Netherlands	death	1339	52.1326	5.2913
+Germany	death	1107	51	9
+Belgium	death	1011	50.8333	4
+Switzerland	death	536	46.8182	8.2275
+Turkey	death	356	38.9637	35.2433
+Brazil	death	324	-14.235	-51.9253
+Sweden	death	308	63	16
+Portugal	death	209	39.3999	-8.2245
+Indonesia	death	170	-0.7893	113.9213
+Korea	death	169	36	128
+Austria	death	158	47.5162	14.5501
+Canada	death	139	44.7840466666667	-82.5085933333333
+Denmark	death	123	56.2639	9.5018
+Ecuador	death	120	-1.8312	-78.1834
+Romania	death	115	45.9432	24.9668
+Philippines	death	107	13	122
+Ireland	death	98	53.1424	-7.6921
+Algeria	death	86	28.0339	1.6596
+India	death	72	21	78
+Japan	death	62	36	138
+Dominican Republic	death	60	18.7357	-70.1627
+Egypt	death	58	26	30
+Poland	death	57	51.9194	19.1451
+Peru	death	55	-9.19	-75.0152
+Iraq	death	54	33	44
+Greece	death	53	39.0742	21.8243
+Malaysia	death	50	2.5	112.5
+Norway	death	50	60.472	8.4689
+Czech Republic	death	44	49.8175	15.473
+Morocco	death	44	31.7917	-7.0926
+Mexico	death	37	23.6345	-102.5528
+Argentina	death	36	-38.4161	-63.6167
+Israel	death	36	31	35
+Pakistan	death	34	30.3753	69.3451
+Panama	death	32	8.538	-80.7821
+Serbia	death	31	44.0165	21.0059
+Luxembourg	death	30	49.8153	6.1296
+Russia	death	30	60	90
+San Marino	death	30	43.9424	12.4578
+Australia	death	24	-31.9961875	141.2327875
+Ukraine	death	22	48.3794	31.1656
+Hungary	death	21	47.1625	19.5033
+Saudi Arabia	death	21	24	45
+Colombia	death	19	4.5709	-74.2973
+Finland	death	19	64	26
+Chile	death	18	-35.6751	-71.543
+Slovenia	death	17	46.1512	14.9955
+Albania	death	16	41.1533	20.1683
+Bosnia and Herzegovina	death	16	43.9159	17.6791
 Burkina Faso	death	16	12.2383	-1.5616
-Chile	death	16	-35.6751	-71.543
-Saudi Arabia	death	16	24	45
-Albania	death	15	41.1533	20.1683
-Slovenia	death	15	46.1512	14.9955
-Andorra	death	14	42.5063	1.5218
-Lebanon	death	14	33.8547	35.8623
-Bosnia and Herzegovina	death	13	43.9159	17.6791
-Thailand	death	12	15	101
-Tunisia	death	12	34	9
+Lebanon	death	16	33.8547	35.8623
+Andorra	death	15	42.5063	1.5218
+Thailand	death	15	15	101
+Honduras	death	14	15.2	-86.2419
+Tunisia	death	14	34	9
+Congo (Kinshasa)	death	13	-4.0383	21.7587
 Diamond Princess	death	11	0	0
+Estonia	death	11	58.5953	25.0136
 North Macedonia	death	11	41.6086	21.7453
 Bulgaria	death	10	42.7339	25.4858
-Honduras	death	10	15.2	-86.2419
-Congo (Kinshasa)	death	9	-4.0383	21.7587
-Cyprus	death	9	35.1264	33.4299
-Lithuania	death	8	55.1694	23.8813
+Cyprus	death	10	35.1264	33.4299
+Lithuania	death	9	55.1694	23.8813
+Bolivia	death	8	-16.2902	-63.5887
 United Arab Emirates	death	8	24	54
-Bolivia	death	7	-16.2902	-63.5887
+Armenia	death	7	40.0691	45.0382
+Cameroon	death	7	3.848	11.5021
+Croatia	death	7	45.1	15.2
+Mauritius	death	7	-20.2	57.5
+Afghanistan	death	6	33	65
 Bangladesh	death	6	23.685	90.3563
-Cameroon	death	6	3.848	11.5021
-Croatia	death	6	45.1	15.2
 Cuba	death	6	22	-80
 France - Guadeloupe	death	6	16.25	-61.5833
-Mauritius	death	6	-20.2	57.5
+Moldova	death	6	47.4116	28.3699
 Azerbaijan	death	5	40.1431	47.5769
 Chinese Taipei	death	5	23.7	121
-Estonia	death	5	58.5953	25.0136
 Ghana	death	5	7.9465	-1.0232
 Jordan	death	5	31.24	36.51
-Moldova	death	5	47.4116	28.3699
 Niger	death	5	17.6078	8.0817
 South Africa	death	5	-30.5595	22.9375
 Trinidad and Tobago	death	5	10.6918	-61.2225
-Afghanistan	death	4	33	65
-Armenia	death	4	40.0691	45.0382
+Venezuela	death	5	6.4238	-66.5897
 Bahrain	death	4	26.0275	50.55
+Belarus	death	4	53.7098	27.9534
+Guyana	death	4	5	-58.75
+Iceland	death	4	64.9631	-19.0208
+Singapore	death	4	1.2833	103.8333
+Sri Lanka	death	4	7	81
+Uruguay	death	4	-32.5228	-55.7658
 France - Martinique	death	3	14.6415	-61.0242
 Jamaica	death	3	18.1096	-77.2975
 Kazakhstan	death	3	48.0196	66.9237
+Kenya	death	3	-0.0236	37.9062
 Mali	death	3	17.570692	-3.996166
 Paraguay	death	3	-23.4425	-58.4438
-Singapore	death	3	1.2833	103.8333
-Sri Lanka	death	3	7	81
+Qatar	death	3	25.3548	51.1839
 United Kingdom - Channel Islands	death	3	49.3723	-2.3644
-Venezuela	death	3	6.4238	-66.5897
 Angola	death	2	-11.2027	17.8739
-Belarus	death	2	53.7098	27.9534
+Congo (Brazzaville)	death	2	-4.0383	21.7587
 Costa Rica	death	2	9.7489	-83.7534
-Guyana	death	2	5	-58.75
-Iceland	death	2	64.9631	-19.0208
+El Salvador	death	2	13.7942	-88.8965
 Montenegro	death	2	42.5	19.3
 MS Zaandam	death	2	0	0
 Nigeria	death	2	9.082	8.6753
-Qatar	death	2	25.3548	51.1839
 Sudan	death	2	12.8628	30.2176
 Syria	death	2	34.802075	38.996815
 Togo	death	2	8.6195	0.8248
-Uruguay	death	2	-32.5228	-55.7658
 Uzbekistan	death	2	41.3775	64.5853
 Bahamas	death	1	25.0343	-77.3963
 Botswana	death	1	-22.3285	24.6849
@@ -116,14 +119,13 @@ Brunei	death	1	4.5353	114.7277
 Burma	death	1	21.9162	95.956
 Cabo Verde	death	1	16.5388	-23.0418
 Cote d'Ivoire	death	1	7.54	-5.5471
-El Salvador	death	1	13.7942	-88.8965
 France - Mayotte	death	1	-12.8275	45.1662
 France - St Martin	death	1	18.0708	-63.0501
 Gabon	death	1	-0.8037	11.6094
 Gambia	death	1	13.4432	-15.3101
 Guatemala	death	1	15.7835	-90.2308
-Kenya	death	1	-0.0236	37.9062
 Kosovo	death	1	42.602636	20.902977
+Libya	death	1	26.3351	17.228331
 Mauritania	death	1	21.0079	10.9408
 Monaco	death	1	43.7333	7.4167
 Netherlands - Curacao	death	1	12.1696	-68.99
@@ -137,6 +139,7 @@ Tanzania	death	1	-6.369	34.8888
 United Kingdom - Cayman Islands	death	1	19.3133	-81.2546
 United Kingdom - Isle of Man	death	1	54.2361	-4.5481
 West Bank and Gaza	death	1	31.9522	35.2332
+Zambia	death	1	-15.4167	28.2833
 Zimbabwe	death	1	-20	30
 Antigua and Barbuda	death	0	17.0608	-61.7964
 Barbados	death	0	13.1939	-59.5432
@@ -147,7 +150,6 @@ Burundi	death	0	-3.3731	29.9189
 Cambodia	death	0	11.55	104.9167
 Central African Republic	death	0	6.6111	20.9394
 Chad	death	0	15.4542	18.7322
-Congo (Brazzaville)	death	0	-4.0383	21.7587
 Denmark - Faroe Islands	death	0	61.8926	-6.9118
 Denmark - Greenland	death	0	71.7069	-42.6043
 Djibouti	death	0	11.8251	42.5903
@@ -173,9 +175,9 @@ Kyrgyzstan	death	0	41.2044	74.7661
 Laos	death	0	19.85627	102.495496
 Latvia	death	0	56.8796	24.6032
 Liberia	death	0	6.4281	-9.4295
-Libya	death	0	26.3351	17.228331
 Liechtenstein	death	0	47.14	9.55
 Madagascar	death	0	-18.7669	46.8691
+Malawi	death	0	-13.254308	34.301525
 Maldives	death	0	3.2028	73.2207
 Malta	death	0	35.9375	14.3754
 Mongolia	death	0	46.8625	103.8467
@@ -183,6 +185,7 @@ Mozambique	death	0	-18.665695	35.529562
 Namibia	death	0	-22.9576	18.4904
 Nepal	death	0	28.1667	84.25
 Netherlands - Aruba	death	0	12.5186	-70.0358
+Netherlands - Bonaire, Sint Eustatius and Saba	death	0	12.1784	-68.2385
 Papua New Guinea	death	0	-6.315	143.9555
 Rwanda	death	0	-1.9403	29.8739
 Saint Kitts and Nevis	death	0	17.357822	-62.782998
@@ -201,4 +204,3 @@ United Kingdom - Gibraltar	death	0	36.1408	-5.3536
 United Kingdom - Montserrat	death	0	16.7425	-62.1874
 United Kingdom - Turks and Caicos Islands	death	0	21.694	-71.7979
 Vietnam	death	0	16	108
-Zambia	death	0	-15.4167	28.2833

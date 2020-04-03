@@ -257,6 +257,23 @@ textpath{
 
 
 
+  .areaCou{
+    fill:#8DCD79;
+  }
+
+  .countryName{
+    font-family: 'Noto Sans', sans-serif;
+  font-weight: 100;
+  font-size: 1rem;
+  color: #0b1e2d;
+  }
+
+  .axisLabel{
+    font-family: 'Noto Sans', sans-serif;
+  font-weight: 100;
+  font-size: 1rem;
+  color: #0b1e2d;
+  }
 
 
 
@@ -323,21 +340,3 @@ textpath{
   .annotation-line line {
     display: none;
   }**/
-
-  .areaCou{
-    fill:#8DCD79;
-  }
-
-  .countryName{
-    font-family: 'Noto Sans', sans-serif;
-  font-weight: 100;
-  font-size: 1rem;
-  color: #0b1e2d;
-  }
-
-  .axisLabel{
-    font-family: 'Noto Sans', sans-serif;
-  font-weight: 100;
-  font-size: 1rem;
-  color: #0b1e2d;
-  }

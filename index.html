@@ -264,7 +264,6 @@
 					.style("opacity", 1);
 
 				
-(console.log(document.getElementById('spreadMap').getBoundingClientRect().top ))
 				var htmlText = "<b>" + d.data.Country + "</b>"
 				divMap.html(htmlText)
 					.style("left",parseFloat(document.getElementById('spreadMap').getBoundingClientRect().top) + parseFloat(element.attr('cx')) + "px")
@@ -352,6 +351,88 @@
 			.append("g")
 			.attr("class", "y axis")
 			.call(yAxis.tickSize(5))//-width + marginChart.left + marginChart.right).ticks(5))
+
+
+
+
+			
+		timeChart.append("text")
+			.attr("x", xScale(d3.max(temp, d => parseFloat(d.increment))))
+			.attr("y", height)
+			.attr("class", "axisLabel")
+			.text("Number of days since 10 deaths")
+			.style("text-anchor", "end");
+
+		timeChart.append("text")
+			.attr("x", xScale(d3.min(temp, d => parseFloat(d.increment))))
+			.attr("y", margin.top / 2)
+			.attr("class", "axisLabel")
+			.text("Total number of deaths")
+			.style("text-anchor", "start");
+
+		timeChart.append("path")
+			.datum(temp.filter(function (d) { return (d.Country == "China") }))
+			.attr("class", "explainerLine")
+			.attr("id", "double1")
+			.attr("d", d3.line()
+				.x(function (d) { return xScale(parseFloat(d.increment)) })
+				.y(function (d) { return yScale(parseFloat(d.double1)) })
+			);
+		timeChart.append("text")
+			.append("textPath") //append a textPath to the text element
+			.attr("xlink:href", "#double1") //place the ID of the path here
+			.style("text-anchor", "middle") //place the text halfway on the arc
+			.attr("startOffset", "13%")
+			.text("This inclinaison tells tne numbef of deaths double every day");;
+
+
+		timeChart.append("path")
+			.datum(temp.filter(function (d) { return (d.Country == "China") }))
+			.attr("class", "explainerLine")
+			.attr("id", "double2")
+			.attr("d", d3.line()
+				.x(function (d) { return xScale(parseFloat(d.increment)) })
+				.y(function (d) { return yScale(parseFloat(d.double2)) })
+			);
+		timeChart.append("text")
+			.append("textPath") //append a textPath to the text element
+			.attr("xlink:href", "#double2") //place the ID of the path here
+			.style("text-anchor", "middle") //place the text halfway on the arc
+			.attr("startOffset", "30%")
+			.text("Deaths double every  two days");;
+
+
+		timeChart.append("path")
+			.datum(temp.filter(function (d) { return (d.Country == "China") }))
+			.attr("class", "explainerLine")
+			.attr("id", "double3")
+			.attr("d", d3.line()
+				.x(function (d) { return xScale(parseFloat(d.increment)) })
+				.y(function (d) { return yScale(parseFloat(d.double3)) })
+			);
+		timeChart.append("text")
+			.append("textPath") //append a textPath to the text element
+			.attr("xlink:href", "#double3") //place the ID of the path here
+			.style("text-anchor", "middle") //place the text halfway on the arc
+			.attr("startOffset", "45%")
+			.text("Deaths double every three days");;
+
+		timeChart.append("path")
+			.datum(temp.filter(function (d) { return (d.Country == "China") }))
+			.attr("class", "explainerLine")
+			.attr("id", "double7")
+			.attr("d", d3.line()
+				.x(function (d) { return xScale(parseFloat(d.increment)) })
+				.y(function (d) { return yScale(parseFloat(d.double7)) })
+			);
+		timeChart.append("text")
+			.append("textPath") //append a textPath to the text element
+			.attr("xlink:href", "#double7") //place the ID of the path here
+			.style("text-anchor", "middle") //place the text halfway on the arc
+			.attr("startOffset", "85%")
+			.text("Deaths double every week");;
+
+
 
 
 		var cou = timeChart
@@ -461,83 +542,6 @@
 
 			});;	
 
-
-		timeChart.append("text")
-			.attr("x", xScale(d3.max(temp, d => parseFloat(d.increment))))
-			.attr("y", height)
-			.attr("class", "axisLabel")
-			.text("Number of days since 10 deaths")
-			.style("text-anchor", "end");
-		
-		timeChart.append("text")
-			.attr("x", xScale(d3.min(temp, d => parseFloat(d.increment))))
-			.attr("y", margin.top/2)
-			.attr("class", "axisLabel")
-			.text("Total number of deaths")
-			.style("text-anchor", "start");	
-
-		timeChart.append("path")
-			.datum(temp.filter(function (d) { return (d.Country == "China")  }))
-			.attr("class",  "explainerLine")
-			.attr("id", "double1")
-			.attr("d", d3.line()
-				.x(function (d) { return xScale(parseFloat(d.increment)) })
-				.y(function (d) { return yScale(parseFloat(d.double1) )})
-			);
-		timeChart.append("text")
-			.append("textPath") //append a textPath to the text element
-			.attr("xlink:href", "#double1") //place the ID of the path here
-			.style("text-anchor", "middle") //place the text halfway on the arc
-			.attr("startOffset", "13%")
-			.text("This inclinaison tells tne numbef of deaths double every day");;
-
-
-		timeChart.append("path")
-			.datum(temp.filter(function (d) { return (d.Country == "China") }))
-			.attr("class", "explainerLine")
-			.attr("id", "double2")
-			.attr("d", d3.line()
-				.x(function (d) { return xScale(parseFloat(d.increment)) })
-				.y(function (d) { return yScale(parseFloat(d.double2)) })
-			);
-		timeChart.append("text")
-			.append("textPath") //append a textPath to the text element
-			.attr("xlink:href", "#double2") //place the ID of the path here
-			.style("text-anchor", "middle") //place the text halfway on the arc
-			.attr("startOffset", "30%")
-			.text("Deaths double every  two days");;
-
-		
-		timeChart.append("path")
-			.datum(temp.filter(function (d) { return (d.Country == "China") }))
-			.attr("class", "explainerLine")
-			.attr("id", "double3")
-			.attr("d", d3.line()
-				.x(function (d) { return xScale(parseFloat(d.increment)) })
-				.y(function (d) { return yScale(parseFloat(d.double3)) })
-			);
-		timeChart.append("text")
-			.append("textPath") //append a textPath to the text element
-			.attr("xlink:href", "#double3") //place the ID of the path here
-			.style("text-anchor", "middle") //place the text halfway on the arc
-			.attr("startOffset", "45%")
-			.text("Deaths double every three days");;
-
-		timeChart.append("path")
-			.datum(temp.filter(function (d) { return (d.Country == "China") }))
-			.attr("class", "explainerLine")
-			.attr("id", "double7")
-			.attr("d", d3.line()
-				.x(function (d) { return xScale(parseFloat(d.increment)) })
-				.y(function (d) { return yScale(parseFloat(d.double7)) })
-			);
-		timeChart.append("text")
-			.append("textPath") //append a textPath to the text element
-			.attr("xlink:href", "#double7") //place the ID of the path here
-			.style("text-anchor", "middle") //place the text halfway on the arc
-			.attr("startOffset", "85%")
-			.text("Deaths double every week");;
-		
 
 	}
 
